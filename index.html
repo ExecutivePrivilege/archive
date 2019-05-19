@@ -1,6 +1,14 @@
 <html>
   <head>
     <title>Executive Privilege Archive</title>
+    <script src="/archive/jquery-3.4.1.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("button").click(function(){
+          $(".test").hide();
+        });
+      });
+    </script>
     <style>
         div {
           padding-top: 0px;
@@ -16,5 +24,9 @@
     <p>This website is dedicated to providing a central place for the collection of Executive Privilege primary sources. The collection is arranged in several ways.</p> 
     <p>Check out the <a href="/archive/files/masterlist.html">Master List</a> to see a chronologically ordered list with the author and document name.</p>
     <p>See the <a href="/archive/files/authorlist.html">Authors page</a> to see a full list of the people, arranged by last name, who authored the documents in the collection.</p>
+    <h2 class="test">This is a heading</h2>
+    <p class="test">This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <button>Click me</button>
   </div>
 </html>
