@@ -3756,8 +3756,17 @@
           $(".whitehouse").hide();
         }
       })
-      
+
+      $(".courtOpinion").show();
+      $("#courtOpinions").change(function() {
+        if ($(this).prop("checked") === true) {
+          $(".courtOpinion").show();
+        }
+        if ($(this).prop("checked") === false) {
+          $(".courtOpinion").hide();
+        }
+      })
+
     </script>
   </body>
 </html>
-
