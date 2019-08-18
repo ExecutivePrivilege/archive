@@ -54,20 +54,33 @@
       <p style="text-align:center"><b>SELECT DOCUMENT <br> BY CATEGORY</b></p>
       <ul>
         <li><b>Executive Branch</b></li>
-        <li><input type="checkbox" name="potus" id="potus" checked>President</li>
-        <li><input type="checkbox" name="potus" id="whitehouse" checked>White House Personnel</li>
+        <li><input type="checkbox" name="potus" id="potus" checked> President</li>
+        <li><input type="checkbox" name="whco" id="whco" checked> White House Counsel's Office</li>
+        <li><input type="checkbox" name="whitehouse" id="whitehouse" checked> White House Personnel</li>
         <li><input type="checkbox" name ="doj" id="doj" checked> Department of Justice</li>
         <li><input type="checkbox" name="cabsec" id="cabsec" checked> Cabinet Secretary</li>
         <li><input type="checkbox" name="otherExec" id="otherExec" checked> Other Executive <br> Branch Official</li>
+
         <br>
+
         <li><b>Legislative Branch</b></li>
         <li><input type="checkbox" name="commRep" id="commRep" checked> Committee Reports</li>
+        <li><input type="checkbox" name="congRes" id="congRes" checked> Resolutions</li>
         <li><input type="checkbox" name="CRS" id="CRS" checked> CRS Reports</li>
         <li><input type="checkbox" name="hearings" id="hearings" checked> Hearings</li>
+        <li><input type="checkbox" name="congCorrespondence" id="congCorrespondence" checked> Correspondence</li>
+        <li><input type="checkbox" name="congCounsel" id="congCounsel" checked> Counsel</li>
+        <li><input type="checkbox" name="congProcess" id="congProcess" checked> Subpoenas</li>
+        <li><input type="checkbox" name="floorRemarks" id="floorRemarks" checked> Floor Remarks</li>
+        <li><input type="checkbox" name="floorVotes" id="floorVotes" checked> Floor Votes</li>
+        <li><input type="checkbox" name="congAdministrative" id="congAdministrative" checked> Administrative</li>
+
         <br>
+
         <li><b>Judicial Branch</b></li>
         <li><input type="checkbox" name="courtOpinions" id="courtOpinions" checked> Court Opinions</li>
         <li><input type="checkbox" name="courtFilings" id="courtFilings" checked> Court Filings</li>
+        <li><input type="checkbox" name="gjSubpoenas" id="gjSubpoenas" checked> Grand Jury Subpoenas</li>
       </ul>
     </div>
     <div class="table">
@@ -91,7 +104,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1803-02-24-marbury-v-madison-5-us-137.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="cabsec">
             <td></td>
             <td nowrap>1806-07-08</td>
             <td>James Madison, Henry Dearborn, Robert Smith</td>
@@ -115,7 +128,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1807-09-03-us-v-burr-25-fcas-187.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>1879-03-03</td>
             <td>Benjamin F. Butler</td>
@@ -171,7 +184,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1941-04-30-position-of-the-executive-department-regarding-investigative-reports-40-op-atty-gen-45.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>1947-01-06</td>
             <td>Senate Committee on the Judiciary</td>
@@ -179,7 +192,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1947-01-06-senate-judiciary-memo-on-contempt.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>1948-03-09</td>
             <td>John R. Steelman</td>
@@ -211,7 +224,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1953-11-12-letter-from-truman-to-velde-re-testimony.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>1954-02-09</td>
             <td>Legislative Reference Service</td>
@@ -251,7 +264,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1957-11-05-executive-privilege-independent-regulatory-agencies-1-op-olc-supp-170.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="otherExec">
             <td></td>
             <td nowrap>1958-01-01</td>
             <td>Lawrence R. Houston</td>
@@ -259,7 +272,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1958-01-01-houston-executive-privilege-in-the-field-of-intelligence.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>1958-02-06</td>
             <td>Subcommittee on Constitutional Rights of the Senate Committee on the Judiciary</td>
@@ -267,7 +280,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1958-02-06-house-judiciary-power-of-president-to-withhold-info-from-congress-memos-of-ag-part-1.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>1958-03-06</td>
             <td>Subcommittee on Constitutional Rights of the Senate Committee on the Judiciary</td>
@@ -275,7 +288,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1958-03-06-senate-judiciary-freedom-of-info-and-secrecy-in-government-part-1.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>1958-04-16</td>
             <td>Subcommittee on Constitutional Rights of the Senate Committee on the Judiciary</td>
@@ -283,7 +296,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1958-04-16-senate-judiciary-freedom-of-info-and-secrecy-in-government-part-2.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>1958-10-31</td>
             <td>Subcommittee on Constitutional Rights of the Senate Committee on the Judiciary</td>
@@ -299,7 +312,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1960-11-14-mcphaul-v-united-states-364-us-372.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>1962-08-02</td>
             <td>Charles J. Zinn</td>
@@ -347,7 +360,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1971-04-13-soucie-v-david-448-F2d-1067.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>1971-07-23</td>
             <td>Congressional Research Service</td>
@@ -355,7 +368,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1971-07-23-executive-privilege-a-brief-survey-crs.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>1971-07-27</td>
             <td>Subcommittee on separation of Powers of the Senate Committee on the Judiciary</td>
@@ -363,7 +376,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/">PDF*</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>1972-03-01</td>
             <td>James William Fulbright</td>
@@ -379,7 +392,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1972-03-15-memo-from-nixon-to-shakespeare-re-usia-memoranda.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="otherExec">
             <td></td>
             <td nowrap>1972-03-16</td>
             <td>Frank Shakespeare</td>
@@ -419,7 +432,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-03-12-nixon-statement-re-executive-privilege-9-weekly-comp-pres-docs-253.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>1973-03-14</td>
             <td>John W. Dean III</td>
@@ -435,7 +448,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-03-15-presidents-news-conference-9-weekly-comp-pres-docs-271.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>1973-04-03</td>
             <td>Subcommittee of the House Committee on Government Operations</td>
@@ -443,7 +456,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-04-03-availability-of-information-to-congress.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>1973-04-10</td>
             <td>Subcommittee on Intergovernmental Relations of the Senate Committee on Government Relations; Subcommittee on Separation of Powers of the Senate Committee on the Judiciary; Subcommittee on Administrative Practice and Procedure of the Senate Committee on the Judiciary</td>
@@ -451,7 +464,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-04-10-executive-privilege-secrecy-in-government-freedom-of-information-vol-1.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>1973-04-10</td>
             <td>Subcommittee on Intergovernmental Relations of the Senate Committee on Government Relations; Subcommittee on Separation of Powers of the Senate Committee on the Judiciary; Subcommittee on Administrative Practice and Procedure of the Senate Committee on the Judiciary</td>
@@ -475,7 +488,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-05-22-statements-by-the-president-re-watergate-investigation-9-weekly-comp-pres-docs-693.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>1973-06-07</td>
             <td>Subcommittee on Intergovernmental Relations of the Senate Committee on Government Relations; Subcommittee on Separation of Powers of the Senate Committee on the Judiciary; Subcommittee on Administrative Practice and Procedure of the Senate Committee on the Judiciary</td>
@@ -499,7 +512,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-07-06-letter-from-nixon-to-ervin-9-weekly-comp-pres-docs-891.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCounsel">
             <td></td>
             <td nowrap>1973-07-10</td>
             <td>Samuel Dash</td>
@@ -507,7 +520,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-07-10-memorandum-from-dash-to-select-committee-re-congressional-subpoenas.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>1973-07-16</td>
             <td>J. Fred Buzhardt</td>
@@ -523,7 +536,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-07-17-letter-from-nixon-to-shultz-re-secret-service-testimony-before-congress.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>1973-07-23</td>
             <td>Sam J. Ervin Jr</td>
@@ -531,7 +544,7 @@
             <td><a href="/archive/files/html/1973-07-23-nixon-subpoena-for-documents-and-materials.html">HTML</a></td>
             <td><a href="/archive/files/pdf/1973-07-23-congressional-subpoena-to-nixon-for-documents-and-other-materials.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>1973-07-23</td>
             <td>Sam J. Ervin Jr</td>
@@ -547,7 +560,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-07-23-letter-from-nixon-to-ervin-re-recordings-of-presidential-conversations-9-weekly-comp-pres-docs-921.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>1973-07-23</td>
             <td>Charles Alan Wright</td>
@@ -555,7 +568,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-07-23-letter-from-wright-to-cox-re-recordings-of-presidential-conversations-9-weekly-comp-pres-docs-921.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="gjSubpoenas">
             <td></td>
             <td nowrap>1973-07-24</td>
             <td>Archibald Cox</td>
@@ -579,7 +592,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-07-25-letter-from-nixon-to-sirica-re-subpoena-for-tapes-and-documents-9-weekly-comp-pres-docs-933.pdf">PDF</a>; <a href="/archive/files/pdf/1973-07-25-letter-from-nixon-to-sirica-re-subpoena-for-tapes-and-documents(2).pdf">PDF2</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>1973-08-07</td>
             <td>Leonard Garment; J. Fred Buzhardt; Charles Alan Wright; Douglas M. Parker; Robert T. Andrews; Thomas P. Marinis Jr</td>
@@ -603,7 +616,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-08-15-statement-by-president-re-watergate-9-weekly-comp-pres-docs-991.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1973-08-17</td>
             <td>Leonard Garment; J. Fred Buzhardt; Charles Alan Wright; Douglas M. Parker; Robert T. Andrews; Thomas P. Marinis Jr</td>
@@ -635,7 +648,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-09-05-presidents-news-conference-9-weekly-comp-pres-docs-1049.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1973-09-06</td>
             <td>Leonard Garment; J. Fred Buzhardt; Charles Alan Wright; Douglas M. Parker; Robert T. Andrews; Thomas P. Marinis Jr</td>
@@ -651,7 +664,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-09-10-nixon-brief-dc-circuit-vacate-sirica-order-9-weekly-comp-pres-docs-1100.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1973-09-19</td>
             <td>Leonard Garment; J. Fred Buzhardt; Charles Alan Wright; Douglas M. Parker; Robert T. Andrews; Thomas P. Marinis Jr</td>
@@ -659,7 +672,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-09-19-nixon-reply-brief-dc-circuit-9-weekly-comp-pres-docs-1154.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1973-09-24</td>
             <td>Leonard Garment; J. Fred Buzhardt; Charles Alan Wright; Douglas M. Parker; Robert T. Andrews; Thomas P. Marinis Jr</td>
@@ -667,7 +680,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-09-24-nixon-brief-in-opposition-to-summary-judgment-senate-select-committee-9-weekly-comp-pres-docs-1174.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="doj">
             <td></td>
             <td nowrap>1973-09-24</td>
             <td>Robert G. Dixon Jr.</td>
@@ -715,7 +728,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-10-20-letter-from-bork-to-cox-re-firing-9-weekly-comp-pres-docs-1272.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>1973-10-20</td>
             <td>Ronald L. Ziegler</td>
@@ -723,7 +736,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-10-20-ziegler-statement-announcing-cox-firing-9-weekly-comp-pres-docs-1271.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>1973-10-23</td>
             <td>Alexander M. Haig Jr.</td>
@@ -757,7 +770,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-11-17-nixon-press-briefing-9-weekly-comp-pres-docs-1345.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1973-11-26</td>
             <td>J. Fred Buzhardt</td>
@@ -773,7 +786,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-12-08-letter-from-nixon-to-mills-re-accounting-of-financial-transactions.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>1973-12-19</td>
             <td>Sam J. Ervin Jr.</td>
@@ -781,7 +794,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-12-19-congressional-subpoena-to-nixon-for-documents-on-watergate-and-political-contributions.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>1973-12-19</td>
             <td>Sam J. Ervin Jr.</td>
@@ -789,7 +802,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1973-12-19-subpoena-to-nixon-for-documents-relating-to-watergate-and-certain-political-contributions.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-01-17</td>
             <td>Leonard Garment; J. Fred Buzhardt; Charles Alan Wright; Douglas M. Parker; Robert T. Andrews; Thomas P. Marinis Jr</td>
@@ -797,7 +810,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-01-17-nixon-amended-answer-senate-select-committe-10-weekly-comp-pres-docs-43.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-01-17</td>
             <td>Leonard Garment; J. Fred Buzhardt; Charles Alan Wright; Douglas M. Parker; Robert T. Andrews; Thomas P. Marinis Jr</td>
@@ -853,7 +866,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-04-30-nixon-document-submitted-to-house-judiciary-re-subpoena-of-presidential-tapes-and-materials-10-weekly-comp-pres-docs-459.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-05-01</td>
             <td>James D. St. Clair; Michael A. Sterlacci; John A. McCahill; Jerome J. Murphy; Jean A. Staudt; Eugene R. Sullivan; James J. Tansey, Charles Alan Wright</td>
@@ -869,7 +882,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-05-01-nixon-formal-claim-of-privilege-usa-v-mitchell-10-weekly-comp-pres-docs-474.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-05-01</td>
             <td>James D. St. Clair; Michael A. Sterlacci; John A. McCahill; Jerome J. Murphy; Jean A. Staudt; Eugene R. Sullivan; James J. Tansey, Charles Alan Wright</td>
@@ -877,7 +890,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-05-01-memo-in-support-of-potus-motion-to-quash-usa-v-mitchell-10-weekly-comp-pres-docs-474.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-05-10</td>
             <td>James D. St. Clair; Michael A. Sterlacci; Jerome J. Murphy; Loren A. Smith; Charles Alan Wright</td>
@@ -893,7 +906,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-05-23--Senate Select Committee on Presidential Campaign Activities v. Nixon, 498 F.2d 725 (CADC 1974).pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-05-24</td>
             <td>James D. St. Clair; J. Fred Buzhardt; Michael A. Sterlacci; Jerome J. Murphy; Jean A. Staudt</td>
@@ -909,7 +922,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-05-24-nixon-formal-claim-of-privilege-usa-v-ehrlichman-10-weekly-comp-pres-docs-542.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-05-24</td>
             <td>James D. St. Clair; J. Fred Buzhardt; Michael A. Sterlacci; Jerome J. Murphy; Jean A. Staudt</td>
@@ -917,7 +930,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-05-24-nixon-memo-in-support-of-motion-to-quash-subpoena-usa-v-ehrlichman-10-weekly-comp-pres-docs-543.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-05-30</td>
             <td>Charles Alan Wright; James D. St. Clair; Michael A. Sterlacci; Jerome J. Murphy; Jean A. Staudt</td>
@@ -925,7 +938,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-05-30-nixon-brief-in-opposition-to-special-prosecutor-petition-before-judgment-10-weekly-comp-pres-docs-562.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>1974-05-30</td>
             <td>James D. St. Clair</td>
@@ -941,7 +954,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-06-09-letter-from-nixon-to-rodino-re-subpoena-for-tapes-and-materials-10-weekly-comp-pres-docs-592.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>1974-06-10</td>
             <td>James D. St. Clair</td>
@@ -949,7 +962,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-06-10-letter-from-st-clair-to-gessell-re-subpoena-ellsberg-case-10-weekly-comp-pres-docs-596.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>1974-06-10</td>
             <td>James D. St. Clair</td>
@@ -957,7 +970,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-06-10-letter-from-st-clair-to-rodino-re-subpoena-for-tapes-and-materials-10-weekly-comp-pres-docs-591.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-06-10</td>
             <td>James D. St. Clair; Michael A. Sterlacci; Jerome J. Murphy; Jean A. Staudt; James R. Prochnow</td>
@@ -965,7 +978,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-06-10-nixon-cross-petition-for-writ-re-grand-jury-authority-10-weekly-comp-pres-docs-597.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-06-12</td>
             <td>James D. St. Clair; Michael A. Sterlacci; Eugene R. Sullivan; Jerome J. Murphy; Malcolm J. Howard</td>
@@ -973,7 +986,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-06-12-nixon-filings-disclosure-of-grand-jury-materials-10-weekly-comp-pres-docs-602.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-06-21</td>
             <td>James D. St. Clair; Michael A. Sterlacci; Jerome J. Murphy; Eugene R. Sullivan</td>
@@ -981,7 +994,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-06-21-brief-for-nixon-supreme-court-10-weekly-comp-pres-docs-657.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-07-01</td>
             <td>James D. St. Clair; Michael A. Sterlacci; Jerome J. Murphy; Loren A. Smith; James R. Prochnow; Eugene R. Sullivan; Jean A. Staudt; James J. Tansey</td>
@@ -989,7 +1002,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-07-01-nixon-reply-brief-supreme-court-10-weekly-comp-pres-docs-772.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-07-18</td>
             <td>James D. St. Clair; John A. McCahill; Malcolm J. Howard</td>
@@ -997,7 +1010,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-07-18-brief-on-behalf-of-nixon-house-judiciary-impeachment-hearings.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>1974-07-19</td>
             <td>Office of Special Counsel To the President</td>
@@ -1005,7 +1018,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-07-19-brief-for-president-submitted-to-house-judiciary-10-weekly-comp-pres-docs-840.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>1974-07-22</td>
             <td>Minority Members of the House Committee on the Judiciary</td>
@@ -1013,7 +1026,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-07-22-minority-memorandum-on-facts-and-law-house-judiciary-impeachment-hearings.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1974-07-24</td>
             <td>James D. St. Clair; Michael A. Sterlacci; Jerome J. Murphy; Loren A. Smith; James R. Prochnow; Eugene R. Sullivan; Jean A. Staudt; Theodore J. Garrish; James J. Tansey; Larry G. Gutterridge</td>
@@ -1029,7 +1042,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-07-24-united-states-v-nixon-418-us-683.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>1974-07-24</td>
             <td>James D. St. Clair</td>
@@ -1037,7 +1050,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-07-24-james-st-clair-statement-re-supreme-court-decision-10-weekly-comp-pres-docs-829.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="doj">
             <td></td>
             <td nowrap>1974-08-05</td>
             <td>Mary C. Lawton</td>
@@ -1069,7 +1082,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1974-10-17-pardon-for-nixon-10-weekly-comp-pres-docs-1301.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>1974-11-29</td>
             <td>Committee Staff of the Senate Committee on the Judiciary</td>
@@ -1093,7 +1106,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1975-05-27-eastland-v-united-states-services-fund-421-us-491.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>1975-09-29</td>
             <td>Senate Committee on Government Operations</td>
@@ -1117,7 +1130,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1975-11-20-letter-from-ford-to-pike-re-kissinger-contempt-11-weekly-comp-pres-docs-1301.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>1975-12-06</td>
             <td>Philip W. Buchen</td>
@@ -1125,7 +1138,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1975-12-06-letter-from-buchen-to-pike-re-house-intel-subpoenas-11-weekly-comp-pres-docs-1360.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>1976-03-11</td>
             <td>Subcommittee on Separation of Powers of the Senate Committee on the Judiciary</td>
@@ -1173,7 +1186,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1978-04-18-nixon-v-warner-communications-435-us-589.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>1979-02-08</td>
             <td>Robert Lipshutz</td>
@@ -1189,7 +1202,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1980-05-23-hamilton-v-verdow-287-md-544-414-a.2d-914.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>1980-07-24</td>
             <td>Jody Powell</td>
@@ -1549,7 +1562,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1997-06-17-in-re-sealed-case-121-f-3d-729.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1998-04-18</td>
             <td>Robert J. Bittman</td>
@@ -1557,7 +1570,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1998-04-10-motion-to-compel-in-re-grand-jury-proceedings-unredacted.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1998-04-21</td>
             <td>Lewis C. Merletti</td>
@@ -1565,7 +1578,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1998-04-21-merletti-declaration-in-opposition-motion-to-compel-in-re-grand-jury-proceedings.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="otherExec">
             <td></td>
             <td nowrap>1998-05-13</td>
             <td>Ronald D. Rotunda; Albert E. Jenner Jr; Kenneth W. Starr</td>
@@ -1573,7 +1586,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/1998-05-13-letter-from-rotunda-to-starr-re-indictability-of-the-president.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>1998-05-18</td>
             <td>Robert J. Bittman</td>
@@ -1653,7 +1666,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2001-12-12-memorandum-from-bush-to-ag-re-congressional-subpoena-for-doj-files-weekly-comp-pres-docs-1783.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2002-04-05</td>
             <td>Congressional Research Service</td>
@@ -1661,7 +1674,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2002-04-05-RL31351.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2004-04-14</td>
             <td>Congressional Research Service</td>
@@ -1709,7 +1722,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2004-06-18-5-office-of-the-governor-v-select-committee-of-inquiry.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2004-10-06</td>
             <td>Congressional Research Service</td>
@@ -1733,7 +1746,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2006-04-13-state-ex-rel-v-taft-848-ne2d-472.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2007-03-08</td>
             <td>John Conyers Jr.; Linda T. Sanchez</td>
@@ -1749,7 +1762,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-03-13-letter-from-hertling-to-conyers-re-us-attorneys-firings.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2007-03-20</td>
             <td>Fred F. Fielding</td>
@@ -1757,7 +1770,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-03-20-letter-from-fielding-to-leahy-re-us-attorneys-firings.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2007-03-22</td>
             <td>John Conyers Jr.; Linda T. Sanchez</td>
@@ -1765,7 +1778,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-03-22-letter-from-conyers-and-sanchez-to-fielding-re-us-attorneys-firings.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2007-03-28</td>
             <td>Patrick Leahy; John Conyers Jr.</td>
@@ -1773,7 +1786,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-03-28-letter-from-leahy-and-conyers-to-fielding-re-us-attorneys-firings.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2007-04-10</td>
             <td>Congressional Research Service</td>
@@ -1781,7 +1794,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-04-10-RL31351.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2007-04-12</td>
             <td>Fred F. Fielding</td>
@@ -1797,7 +1810,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-04-13-letter-from-hertling-to-conyers-and-leahy-re-us-attorneys-firings.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>2007-06-13</td>
             <td>John Conyers Jr.</td>
@@ -1805,7 +1818,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-06-13-subpoena-issued-by-conyers-served-on-bolten.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>2007-06-13</td>
             <td>John Conyers Jr.</td>
@@ -1821,7 +1834,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-06-27-assertion-of-executive-privilege-us-attorneys-firings.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2007-06-28</td>
             <td>Fred F. Fielding</td>
@@ -1829,7 +1842,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-06-28-letter-from-fielding-to-leahy-and-conyers-clement-attachment.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2007-06-28</td>
             <td>Fred F. Fielding</td>
@@ -1837,7 +1850,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-06-28-letter-from-fielding-to-manning-informing-of-executive-privilege-assertion.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2007-07-09</td>
             <td>Fred F. Fielding</td>
@@ -1845,7 +1858,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-07-09-letter-from-fielding-to-leahy-and-conyers-re-miers-testimony.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>2007-07-09</td>
             <td>George T. Manning</td>
@@ -1853,7 +1866,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-07-09-letter-from-manning-to-conyers-re-miers-testimony.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2007-07-09</td>
             <td>Fred F. Fielding</td>
@@ -1869,7 +1882,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-07-10-immunity-of-the-former-counsel-to-the-president-from-compelled-congressional-testimony--op-olc-v031-p0191.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2007-07-10</td>
             <td>Fred F. Fielding</td>
@@ -1877,7 +1890,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-07-10-letter-from-fielding-to-manning-bradbury-attachment.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>2007-07-10</td>
             <td>George T. Manning</td>
@@ -1885,7 +1898,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-07-10-letter-from-manning-to-conyers-and-sanchez-re-congressional-inquiry-into-us-attorneys.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2007-07-11</td>
             <td>John Conyers Jr.; Linda T. Sanchez</td>
@@ -1893,7 +1906,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-07-11-letter-from-conyers-and-sanchez-to-manning-re-us-attorneys.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>2007-07-11</td>
             <td>George T. Manning</td>
@@ -1901,7 +1914,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-07-11-letter-from-manning-to-conyers-and-sanchez-re-us-attorneys.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>2007-07-12</td>
             <td>House Committee on the Judiciary</td>
@@ -1909,7 +1922,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-07-12-continuing-investigation-into-us-attorneys-firings.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2017-07-16</td>
             <td>Henry A. Waxman</td>
@@ -1917,7 +1930,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-07-16-letter-from-waxman-to-special-counsel-fitzgerald.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>2007-07-17</td>
             <td>George T. Manning</td>
@@ -1925,7 +1938,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-07-17-letter-from-manning-to-conyers-et-al-re-miers-testimony.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2007-07-24</td>
             <td>Congressional Research Service</td>
@@ -1933,7 +1946,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-07-24-RL34097.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2007-08-01</td>
             <td>Congressional Research Service</td>
@@ -1941,7 +1954,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-08-01-RL34114.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2007-10-03</td>
             <td>Congressional Research Service</td>
@@ -1949,7 +1962,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-10-03-RL34197.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2007-11-05</td>
             <td>John Conyers Jr.</td>
@@ -1957,7 +1970,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-11-05-letter-from-conyers-to-fielding-re-accommodation-and-contempt.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2007-11-09</td>
             <td>Fred F. Fielding</td>
@@ -1965,7 +1978,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-11-09-letter-from-fielding-to-conyers-re-miers-and-bolten-contempt.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2007-12-03</td>
             <td>Henry A. Waxman</td>
@@ -1973,7 +1986,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2007-12-03-letter-from-waxman-to-mukasey.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2007-12-18</td>
             <td>Henry A. Waxman</td>
@@ -1997,7 +2010,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-02-29-whether-the-department-of-justice-may-prosecute-white-house-officials-for-contempt-of-congress-.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2008-03-17</td>
             <td>Congressional Research Service</td>
@@ -2005,7 +2018,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-03-17-RL31351.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2008-04-15</td>
             <td>Congressional Research Service</td>
@@ -2013,7 +2026,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-04-15-RL34114.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2008-04-15</td>
             <td>Congressional Research Service</td>
@@ -2021,7 +2034,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-04-15-RL34097.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>2008-05-09</td>
             <td>Gregory G. Katsas; Carl L. Nichols; John C. O'Quinn; Joseph H. Hunt</td>
@@ -2029,7 +2042,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-05-09-defendant's-motion-to-dismiss-comm.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>2008-05-09</td>
             <td>Gregory G. Katsas; Carl L. Nichols; John C. O'Quinn; Joseph H. Hunt</td>
@@ -2053,7 +2066,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-07-03-letter-from-special-counsel-to-waxman.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2008-07-08</td>
             <td>Henry A. Waxman</td>
@@ -2085,7 +2098,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-07-16-letter-from-mukasey-to-waxman.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congRes">
             <td></td>
             <td nowrap>2008-07-16</td>
             <td>Henry A. Waxman</td>
@@ -2093,7 +2106,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-07-16-resolution-recommending-ag-mukasey-be-held-in-contempt.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congRes">
             <td></td>
             <td nowrap>2008-07-16</td>
             <td>Henry A. Waxman</td>
@@ -2101,7 +2114,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-07-16-appendix-to-report-on-ag-mukasey-contempt.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>2008-07-16</td>
             <td>Henry A. Waxman</td>
@@ -2109,7 +2122,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-07-16-waxman-opening-statement-at-hearing-on-mukasey-contempt.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>2008-07-16</td>
             <td>Congressional Research Service</td>
@@ -2117,7 +2130,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-07-16-RL31351.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2008-08-05</td>
             <td>Henry A. Waxman</td>
@@ -2125,7 +2138,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-08-05-letter-from-waxman-to-dudley.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2008-08-05</td>
             <td>Henry A. Waxman</td>
@@ -2133,7 +2146,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-08-05-letter-from-waxman-to-johnson.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2008-08-05</td>
             <td>Henry A. Waxman</td>
@@ -2141,7 +2154,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-08-05-letter-from-waxman-to-mukasey-re-plame-material.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2008-08-20</td>
             <td>Congressional Research Service</td>
@@ -2149,7 +2162,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-08-20-RL34197.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>2008-10-14</td>
             <td>Henry A. Waxman</td>
@@ -2157,7 +2170,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-10-14-draft-report-on-bush-use-of-executive-privilege.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>2008-10-14</td>
             <td>Henry A. Waxman</td>
@@ -2165,7 +2178,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-10-14-apendix-a-to-executive-privilege-report-on-ag-mukasey.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>2008-10-14</td>
             <td>Henry A. Waxman</td>
@@ -2173,7 +2186,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-10-14-appendix-b-crs-report-on-executive-privilege-for-report-on-mukasey.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>2008-10-14</td>
             <td>Henry A. Waxman</td>
@@ -2181,7 +2194,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-10-14-additional-views-of-chairman-waxman-re-bush-use-of-executive-privilege.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>2008-10-14</td>
             <td>Henry A. Waxman</td>
@@ -2189,7 +2202,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-10-14-draft-report-on-executive-privilege-for-epa-administrator-and-omb-administrator.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>2008-10-14</td>
             <td>Henry A. Waxman</td>
@@ -2197,7 +2210,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-10-14-appendix-a-to-epa-executive-privilege-report,-memo-on-epa-denial-fo-the-california-waiver.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>2008-10-14</td>
             <td>Henry A. Waxman</td>
@@ -2205,7 +2218,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-10-14-appendix-b-to-epa-executive-privilege-report-memo-on-supplemental-information-on-ozone-naaqs.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>2008-10-14</td>
             <td>Henry A. Waxman</td>
@@ -2213,7 +2226,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-10-14-appendix-c-to-epa-executive-privilege-report,-ca-waiver-correspondence.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>2008-10-14</td>
             <td>Henry A. Waxman</td>
@@ -2221,7 +2234,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2008-10-14-appendix-d-to-epa-executive-privilege-report-ozone-standard-correspondence.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2009-11-18</td>
             <td>Congressional Research Service</td>
@@ -2237,7 +2250,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-02-04-letter-from-welch-to-grassley-re-fast-and-furious.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2011-03-04</td>
             <td>Charles E. Grassley</td>
@@ -2245,7 +2258,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-03-04-letter-from-grassley-to-melson-re-zapata-gun-purchasers.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2011-03-15</td>
             <td>Charles E. Grassley</td>
@@ -2253,7 +2266,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-03-15-letter-from-grassley-to-leonhart-re-fast-and-furious.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2011-03-28</td>
             <td>Charles E. Grassley</td>
@@ -2261,7 +2274,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-03-28-letter-from-grassley-to-melson-re-zapata-gun-purchasers.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2011-03-28</td>
             <td>Congressional Research Service</td>
@@ -2277,7 +2290,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-05-02-letter-from-welch-to-grassley-re-fast-and-furious.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>2011-06-13</td>
             <td>House Committee on Oversight and Government Reform</td>
@@ -2285,7 +2298,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-06-13-does-doj-have-to-respond-to-congressional-subpoena.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>2011-06-14</td>
             <td>Staff of Senate Committee on the Judiciary and House Committee on Oversight and Government Reform</td>
@@ -2293,7 +2306,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-06-14-joint-staff-report-prepared-for-issa-and-grassley-atf-report.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>2011-06-15</td>
             <td>House Committee on Oversight and Government Reform</td>
@@ -2301,7 +2314,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-06-15-fast-and-furious-tragic-outcomes.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2011-07-11</td>
             <td>Darrell Issa; Charles E. Grassley</td>
@@ -2309,7 +2322,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-07-11-letter-from-issa-and-grassley-to-mueller-re-fast-and-furious.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2011-07-13</td>
             <td>Congressional Research Service</td>
@@ -2317,7 +2330,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-07-13-R41741.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2011-07-15</td>
             <td>Darrell Issa; Charles E. Grassley</td>
@@ -2325,7 +2338,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-07-15-letter-from-grassley-and-issa-to-leonhart-re-fast-and-furious.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2011-07-26</td>
             <td>House Committee on Oversight and Government Reform</td>
@@ -2333,7 +2346,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-07-26-fast-and-furious-the-other-side-of-the-border.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>2011-07-26</td>
             <td>House Committee on Oversight and Government Reform; Senate Committee on the Judiciary</td>
@@ -2341,7 +2354,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-07-26-joint-report-of-issa-and-grassley-re-fast-and-furious.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2011-08-16</td>
             <td>Congressional Research Service</td>
@@ -2357,7 +2370,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-10-07-letter-from-holder-to-issa-re-fast-and-furious.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2011-10-09</td>
             <td>Darrell E. Issa</td>
@@ -2373,7 +2386,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-10-11-letter-from-weich-to-grassley-re-fast-and-furious-zapata.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>2011-10-11</td>
             <td>Darrell E. Issa</td>
@@ -2381,7 +2394,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-10-11-subpoena-issued-by-issa-served-on-holder-reprinted-in-complaint-in-committee-on-oversight-v-holder.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2011-10-25</td>
             <td>Charles E. Grassley</td>
@@ -2397,7 +2410,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2011-12-02-letter-from-cole-to-issa-and-grassley-re-fast-and-furious.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2012-01-31</td>
             <td>Darrell E. Issa</td>
@@ -2405,7 +2418,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-01-31-letter-from-issa-to-holder-re-fast-and-furious.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2012-02-14</td>
             <td>Darrell E. Issa</td>
@@ -2413,7 +2426,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-02-14-letter-from-issa-to-holder-re-fast-and-furious.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2012-05-08</td>
             <td>Congressional Research Service</td>
@@ -2461,7 +2474,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-06-20-letter-from-cole-to-issa-re-assertion-of-executive-privilege.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="floorRemarks">
             <td></td>
             <td nowrap>2012-06-21</td>
             <td>Ted Poe</td>
@@ -2469,7 +2482,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-06-21-rep-poe-floor-remarks-re-holder-contempt.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congRes">
             <td></td>
             <td nowrap>2012-06-22</td>
             <td>Darrell E. Issa</td>
@@ -2477,7 +2490,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-06-22-resolution-re-holder-contempt.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2012-06-25</td>
             <td>Darrell E. Issa</td>
@@ -2485,7 +2498,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-06-25-letter-from-issa-to-obama-re-executive-privilege.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="floorRemarks">
             <td></td>
             <td nowrap>2012-06-28</td>
             <td>Judy Chu</td>
@@ -2501,7 +2514,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-06-28-republican-party-of-new-mexico-v-new-mexico-taxation-and-revenue-department-283-p3d-853.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>2012-08-13</td>
             <td>Kerry W. Kircher</td>
@@ -2509,7 +2522,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-08-13-complaint-in-committee-on-oversight-v-holder.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2012-08-14</td>
             <td>Congressional Research Service</td>
@@ -2517,7 +2530,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-08-14-RL34114.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2012-08-17</td>
             <td>Congressional Research Service</td>
@@ -2525,7 +2538,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-08-17-RL34097.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2012-08-21</td>
             <td>Congressional Research Service</td>
@@ -2533,7 +2546,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-08-21-crs-report-presidential-claims-of-executive-privilege-history-law-practice-and-recent-developments.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>2012-10-15</td>
             <td>Eric Womack</td>
@@ -2541,7 +2554,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-10-15-ag-holder-motion-to-dismiss-committee-on-oversight-v-holder.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>2012-10-15</td>
             <td>Eric Womack</td>
@@ -2549,7 +2562,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-10-15-ag-holder-memo-in-support-of-motion-to-dismiss-committee-on-oversight-v-holder.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2012-11-05</td>
             <td>Congressional Research Service</td>
@@ -2557,7 +2570,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-11-05-R42811.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>2012-11-21</td>
             <td>Kerry W. Kircher</td>
@@ -2565,7 +2578,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2012-11-21-committee-on-oversight-and-government-reform-v-holder-opposition-to-defendant-motion-to-dismiss.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>2012-12-17</td>
             <td>Eric Womack</td>
@@ -2589,7 +2602,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2013-10-17-freedom-foundation-v-gregoire-178-wash2d-686.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2014-04-10</td>
             <td>Congressional Research Service</td>
@@ -2597,7 +2610,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2014-04-10-RL34114.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2014-04-10</td>
             <td>Congressional Research Service</td>
@@ -2605,7 +2618,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2014-04-10-RL34097.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2014-05-08</td>
             <td>Congressional Research Service</td>
@@ -2621,7 +2634,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2014-07-15-immunity of the assistant to the president and director of the office of political strategy and outreach from congressional subpoena-simas-immunity-final-38-op-olc-1.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2014-07-15</td>
             <td>W. Neil Eggleston</td>
@@ -2629,7 +2642,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2014-07-15-letter-from-eggleston-to-issa-re-simas-subpoena.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2014-12-15</td>
             <td>Congressional Research Service</td>
@@ -2637,7 +2650,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2014-12-15-RL34114.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2014-12-15</td>
             <td>Congressional Research Service</td>
@@ -2645,7 +2658,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2014-12-15-RL31351.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2014-12-15</td>
             <td>Congressional Research Service</td>
@@ -2661,7 +2674,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2016-01-19-comm-on-oversight-and-government-reform-v-lynch.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2017-01-27</td>
             <td>Donald F. McGahn II</td>
@@ -2701,7 +2714,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2017-05-09-letter-from-trump-to-comey-re-termination.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>2017-05-09</td>
             <td>Sean Spicer</td>
@@ -2709,7 +2722,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2017-05-09-press-statement-re-comey-firing.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2017-05-12</td>
             <td>Congressional Research Service</td>
@@ -2725,7 +2738,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2017-05-17-rosenstein-order-3915-2017-mueller-appointment.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>2017-06-07</td>
             <td>House Committee on Oversight and Government Reform</td>
@@ -2741,7 +2754,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2017-06-08-doj-press-release-re-comey-testimony.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2017-06-21</td>
             <td>Elijah E. Cummings</td>
@@ -2749,7 +2762,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2017-06-21-democratic-members-to-priebus-re-flynn-and-kushner-security-clearances.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>2017-06-23</td>
             <td>Marc E. Kasowitz</td>
@@ -2765,7 +2778,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2017-08-02-memorandum-from-rosenstein-to-mueller-re-scope.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2017-12-18</td>
             <td>Elijah E. Cummings</td>
@@ -2773,7 +2786,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2017-12-18-cummings-to-vp-pence.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>2018-02-16</td>
             <td>John F. Kelly</td>
@@ -2781,7 +2794,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2018-02-16-wh-chief-of-staff-kelly-memorandum-of-proposed-changes-to-wh-security-clearance-procedures.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2018-03-06</td>
             <td>Elijah E. Cummings</td>
@@ -2789,7 +2802,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2018-03-06-cummings-to-kelly-re-townley-sci-application.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>2018-03-08</td>
             <td>Marc T. Short</td>
@@ -2797,7 +2810,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2018-03-08-letter-from-short-to-gowdy-re-security-clearance-process.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2018-03-13</td>
             <td>Elijah E. Cummings</td>
@@ -2805,7 +2818,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2018-03-13-cummings-to-kelly-re-john-mcentee.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2018-08-20</td>
             <td>Elijah E. Cummings; Stephen F. Lynch</td>
@@ -2813,7 +2826,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2018-08-20-cummings-and-lynch-to-kelly-re-bolton-sf86-information-request.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2018-10-25</td>
             <td>Charles E. Grassley; John Cornyn</td>
@@ -2821,7 +2834,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2018-10-25-grassley-cornyn-to-dhs-re-chinese-student-visa.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2018-12-07</td>
             <td>Charles E. Grassley</td>
@@ -2829,7 +2842,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2018-12-07-letter-from-grassley-to-doj-re-devos-usms-protection.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2018-12-19</td>
             <td>Congressional Research Service</td>
@@ -2837,7 +2850,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2018-12-19-R45442.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-01-07</td>
             <td>Jim Jordan; Mark Meadows; Doug Collins</td>
@@ -2845,7 +2858,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-01-07-letter-from-jordan-collins-meadows-to-huber-re-doj-investigations.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-01-08</td>
             <td>Elijah E. Cummings</td>
@@ -2853,7 +2866,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-01-08-letter-from-cummings-to-cipollone-re-cohen-payments.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-01-08</td>
             <td>Elijah E. Cummings</td>
@@ -2861,7 +2874,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-01-08-letter-from-cummings-to-sorial-trump-organization-re-cohen-payments.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-01-09</td>
             <td>Jim Jordan; Mark Meadows</td>
@@ -2869,7 +2882,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-01-09-letter-from-jordan-and-meadows-to-cummings-re-doj-investigation.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-01-14</td>
             <td>Jim Jordan; Mark Meadows</td>
@@ -2877,7 +2890,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-01-14-letter-from-jordan-and-meadows-to-wray-and-whitaker-re-doj-investigation.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-01-15</td>
             <td>Elijah E. Cummings</td>
@@ -2885,7 +2898,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-01-15-letter-from-cummings-to-jordan.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-01-15</td>
             <td>Jim Jordan; Mark Meadows</td>
@@ -2893,7 +2906,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-01-15-letter-from-jordan-to-meadows-to-durham-re-briefing.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-01-23</td>
             <td>Elijah E. Cummings</td>
@@ -2901,7 +2914,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-01-23-letter-from-cummings-to-cipollone-re-security-clearances.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-01-31</td>
             <td>Jim Jordan; Mark Meadows</td>
@@ -2909,7 +2922,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-01-31-letter-from-jordan-and-meadows-to-rosenstein-and-wray-re-roger-stone-arrest.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-01-31</td>
             <td>Jim Jordan; Mark Meadows</td>
@@ -2917,7 +2930,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-01-31-letter-from-jordan-and-meadows-to-horowitz-re-roger-stone-arrest.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-02-22</td>
             <td>Jerrold Nadler; Adam Schiff; Elijah E. Cummings; Eliot L. Engel; Maxine Waters; Richard E. Neal</td>
@@ -2925,7 +2938,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-02-22-letter-from-democrat-chairs-to-barr-re-mueller-report.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-03-01</td>
             <td>Elijah E. Cummings</td>
@@ -2933,7 +2946,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-03-01-letter-from-cummings-to-cipollone-re-security-clearances.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2019-03-04</td>
             <td>Pat A. Cipollone</td>
@@ -2941,7 +2954,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-03-04-letter-from-cipollone-to-cummings-re-security-clearances.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-03-04</td>
             <td>Jerrold Nadler</td>
@@ -2949,7 +2962,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-03-04-letter-from-nadler-to-mcgahn.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-03-07</td>
             <td>Lindsey O. Graham</td>
@@ -2957,11 +2970,11 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-03-07-letter-from-graham-to-barr-re-fisa-abuse.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>2019-03-18</td>
             <td>William A. Burck</td>
-            <td>Letter from William A. Burck, Counsel to Donald F. McGahn II, to Jerrold Nadler, Chairman, Committee on the Judiciary, United States House of Representatives (Mar. 18, 2019), reprinted in Exhibit S to Complaint, H. Comm. on the Judiciary v. McGahn, No. 1:19-cv-2379 (D.D.C. Aug. 7, 2019).</td>
+            <td>Letter from William A. Burck, Counsel to Donald F. McGahn II, Former Counsel to the President, to Jerrold Nadler, Chairman, Committee on the Judiciary, United States House of Representatives (Mar. 18, 2019), reprinted in Exhibit S to Complaint, H. Comm. on the Judiciary v. McGahn, No. 1:19-cv-2379 (D.D.C. Aug. 7, 2019).</td>
             <td></td>
             <td><a href="/archive/files/pdf/2019-03-18-letter-from-burck-to-nadler.pdf">PDF</a></td>
           </tr>
@@ -2989,7 +3002,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-03-22-letter-from-barr-to-congressional-committees.pdf">PDF</a>; <a href="/archive/files/pdf/2019-03-22-letter-from-barr-to-congressional-committees(2).pdf">PDF2</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-03-22</td>
             <td>Jerrold Nadler; Dianne Feinstein; Adam B. Schiff; Mark Warner; Elijah E. Cummings; Maxine Waters; Richard E. Neal; Eliot L. Engel; Robert Menendez; Ron Wyden; Sherrod Brown</td>
@@ -2997,7 +3010,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-03-22-letter-from-dem-chairs-to-barr-re-mueller-report.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-03-22</td>
             <td>Jerrold Nadler; Dianne Feinstein; Adam B. Schiff; Mark Warner; Elijah E. Cummings; Maxine Waters; Richard E. Neal; Eliot L. Engel; Robert Menendez; Ron Wyden; Sherrod Brown</td>
@@ -3013,7 +3026,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-03-24-letter-from-barr-to-congressional-committees.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-03-25</td>
             <td>Jerrold Nadler; Elijah E. Cummings; Adam B. Schiff; Maxine Waters; Richard E. Neal; Eliot L. Engel</td>
@@ -3021,7 +3034,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-03-25-letter-from-dem-chairs-to-barr-re-mueller-report.pdf">PDF</a>; <a href="/archive/files/pdf/2019-03-25-letter-from-dem-chairs-to-barr-re-mueller-report(2).pdf">PDF2</a></td>
           </tr>
-          <tr>
+          <tr class="congAdministrative">
             <td></td>
             <td nowrap>2019-03-29</td>
             <td>Elijah E. Cummings</td>
@@ -3029,7 +3042,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-03-29-cummings-to-committee-re-notice-of-business-meeting.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>2019-03-29</td>
             <td>Majority Staff of House Committee on Oversight and Government Reform</td>
@@ -3045,7 +3058,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-03-29-letter-from-barr-to-congressional-committees.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="commRep">
             <td></td>
             <td nowrap>2019-04-01</td>
             <td>Committee Staff of House Committee on Oversight and Reform</td>
@@ -3053,7 +3066,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-01-memorandum-from-committee-staff-on-whisteblower-Interview.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-04-01</td>
             <td>Elijah E. Cummings</td>
@@ -3061,7 +3074,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-01-cummings-to-cipollone-re-security-clearances.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-04-01</td>
             <td>Jerrold Nadler; Richard E. Neal; Maxine Waters; Adam Schiff; Elijah E. Cummings; Eliot L. Engel</td>
@@ -3069,7 +3082,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-01-letter-from-democrat-chairs-to-barr-re-unredacted-mueller-report.pdf">PDF</a>; <a href="/archive/files/pdf/2019-04-01-letter-from-democrat-chairs-to-barr-re-mueller-report(2).pdf">PDF2</a></td>
           </tr>
-          <tr>
+          <tr class="congRes">
             <td></td>
             <td nowrap>2019-04-02</td>
             <td>Jerrold Nadler</td>
@@ -3077,7 +3090,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-02-nadler-resolution-re-subpoena-authorization-for-mueller-report-and-witnesses.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congRes">
             <td></td>
             <td nowrap>2019-04-02</td>
             <td>Jerrold Nadler</td>
@@ -3085,7 +3098,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-02-nadler-amendment-re-subpoena-authorization-for-mueller-report-and-witnesses.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congAdministrative">
             <td></td>
             <td nowrap>2019-04-02</td>
             <td>Elijah E. Cummings</td>
@@ -3093,7 +3106,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-02-cummings-notice-of-subcommittee-hearing-civil-rights-and-civil-liberties.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-04-03</td>
             <td>Richard E. Neal</td>
@@ -3101,7 +3114,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-03-letter-from-neal-to-mnuchin-re-trump-tax-returns.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congRes">
             <td></td>
             <td nowrap>2019-04-03</td>
             <td>Elijah E. Cummings</td>
@@ -3109,7 +3122,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-03-cummings-resolution-re-subpoena-2020-census.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congRes">
             <td></td>
             <td nowrap>2019-04-03</td>
             <td>Elijah E. Cummings</td>
@@ -3117,7 +3130,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-03-cummings-amendment-re-2020-census.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congRes">
             <td></td>
             <td nowrap>2019-04-03</td>
             <td>Elijah E. Cummings</td>
@@ -3125,7 +3138,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-03-cummings-resolution-re-wh-clearance-process.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congRes">
             <td></td>
             <td nowrap>2019-04-03</td>
             <td>Elijah E. Cummings</td>
@@ -3133,7 +3146,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-03-cummings-amendment-re-security-clearances.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>2019-04-03</td>
             <td>House Judiciary Committee</td>
@@ -3141,7 +3154,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-03-transcript-of-markup-of-resolution-authorizing-issuance-of-subpoenas.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-04-04</td>
             <td>Jerrold Nadler</td>
@@ -3149,7 +3162,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-04-letter-from-nadler-to-barr-re-mueller-report.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>2019-04-05</td>
             <td>William S. Consovoy</td>
@@ -3157,7 +3170,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-05-letter-from-consovoy-to-mcintosh.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congAdministrative">
             <td></td>
             <td nowrap>2019-04-05</td>
             <td>Majority Staff of House Committee on Oversight and Government Reform</td>
@@ -3165,7 +3178,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-05-memorandum-from-majority-staff-to-committee-members-re-subpoena-on-child-separation-policy.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="cabsec">
             <td></td>
             <td nowrap>2019-04-10</td>
             <td>Steven T. Mnuchin</td>
@@ -3173,7 +3186,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-10-letter-from-mnuchin-to-neal-re-trump-tax-returns.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-04-11</td>
             <td>Nancy Pelosi; Charles E. Schumer; Jerrold Nadler; Dianne Feinstein; Adam Schiff; Mark Warner</td>
@@ -3181,7 +3194,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-11-letter-from-democrat-leadership-to-barr-re-unredacted-mueller-report.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-04-13</td>
             <td>Richard E. Neal</td>
@@ -3189,7 +3202,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-13-letter-from-mcneal-to-irs-re-trump-tax-returns.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-04-15</td>
             <td>Jerrold Nadler; Elijah E. Cummings; Bennie G. Thompson</td>
@@ -3197,7 +3210,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-15-letter-from-nadler-cummings-and-thompson-to-dhs-and-wh.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="CRS">
             <td></td>
             <td nowrap>2019-04-15</td>
             <td>Todd B. Tatelman</td>
@@ -3205,7 +3218,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-15-deutsche-bank-subpoena-hpsci-financial-services.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>2019-04-15</td>
             <td>Todd B. Tatelman</td>
@@ -3213,7 +3226,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-15-capital-one-subpoena-house-financial-services.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>2019-04-18</td>
             <td>Jerrold Nadler</td>
@@ -3229,7 +3242,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-18-letter-from-boyd-to-graham-and-nadler-re-in-camera-review-of-less-redacted-special-counsel-report.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-04-18</td>
             <td>Jerrold Nadler</td>
@@ -3237,7 +3250,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-18-letter-from-nadler-to-mueller-re-testimony-request.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-04-19</td>
             <td>Nancy Pelosi; Charles E. Schumer; Jerrold Nadler; Dianne Feinstein; Adam Schiff; Mark Warner</td>
@@ -3245,7 +3258,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-19-letter-from-democrat-leadership-to-barr-re-unredacted-mueller-report.pdf">PDF</a>; <a href="/archive/files/pdf/2019-04-19-letter-from-dem-chairs-to-barr-re-mueller-report.pdf">PDF2</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>2019-04-22</td>
             <td>Jerrold Nadler</td>
@@ -3253,7 +3266,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-04-22-mcgahn-subpoena-house-judiciary.pdf">PDF</a>; <a href="/archive/files/pdf/2019-04-22-mcgahn-subpoena.pdf">PDF2</a></td>
           </tr>
-          <tr>
+          <tr class="cabsec">
             <td></td>
             <td nowrap>2019-04-23</td>
             <td>Steven T. Mnuchin</td>
@@ -3285,7 +3298,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-01-boyd-to-nadler-re-barr-subpoena.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-05-03</td>
             <td>Jerrold Nadler</td>
@@ -3293,7 +3306,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-03-letter-from-nadler-to-barr-re-unredacted-mueller-report.pdf">PDF</a>; <a href="/archive/files/pdf/2019-05-03-letter-from-nadler-to-barr-re-mueller-report.pdf">PDF2</a></td>
           </tr>
-          <tr>
+          <tr class="congAdministrative">
             <td></td>
             <td nowrap>2019-05-06</td>
             <td>Jerrold Nadler</td>
@@ -3301,7 +3314,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-06-final-barr-contempt-report.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="cabsec">
             <td></td>
             <td nowrap>2019-05-06</td>
             <td>Steven T. Mnuchin</td>
@@ -3317,7 +3330,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-06-letter-from-boyd-to-nadler-re-barr-subpoena.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2019-05-07</td>
             <td>Pat A. Cipollone</td>
@@ -3325,15 +3338,15 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-07-letter-from-cipollone-to-burck-re-mcgahn-subpoena.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>2019-05-07</td>
             <td>William A. Burck</td>
-            <td>Letter from William A. Burck, of the firm Quinn Emanuel, Counsel to Don McGahn, to Jerrold Nadler, Chairman, Committee on the Judiciary, United States House of Representatives (May 7, 2019); see also id. reprinted in Exhibit JJ to Complaint, H. Comm. on the Judiciary v. McGahn, No. 1:19-cv-2379 (D.D.C. Aug. 7, 2019).</td>
+            <td>Letter from William A. Burck, of the firm Quinn Emanuel, Counsel to Donald F. McGahn II, Former Counsel to the President, to Jerrold Nadler, Chairman, Committee on the Judiciary, United States House of Representatives (May 7, 2019); see also id. reprinted in Exhibit JJ to Complaint, H. Comm. on the Judiciary v. McGahn, No. 1:19-cv-2379 (D.D.C. Aug. 7, 2019).</td>
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-07-letter-from-burck-to-nadler-re-mcgahn-subpoena.pdf">PDF</a>; <a href="/archive/files/pdf/2019-05-07-letter-from-burck-to-nadler.pdf">PDF2</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2019-05-07</td>
             <td>Pat A. Cipollone</td>
@@ -3341,7 +3354,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-07-letter-from-cipollone-to-nadler-re-mcgahn-subpoena.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-05-07</td>
             <td>Jerrold Nadler</td>
@@ -3357,7 +3370,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-07-letter-from-boyd-to-nadler-re-barr-contempt.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congAdministrative">
             <td></td>
             <td nowrap>2019-05-07</td>
             <td>Jerrold Nadler</td>
@@ -3373,7 +3386,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-08-letter-from-barr-to-trump-re-executive-privilege-mueller-report.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>2019-05-08</td>
             <td>Sarah Huckabee Sanders</td>
@@ -3381,7 +3394,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-08-sanders-statement-on-executive-privilege-assertion.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>2019-05-10</td>
             <td>Richard E. Neal</td>
@@ -3389,7 +3402,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-10-subpoena-issued-by-neal-served-on-rettig-trump-tax-returns.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-05-10</td>
             <td>Richard E. Neal</td>
@@ -3397,7 +3410,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-10-letter-from-neal-to-mnuchin-subpoena-trump-tax-returns.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2019-05-15</td>
             <td>Pat A. Cipollone</td>
@@ -3405,7 +3418,7 @@
             <td><a href="/archive/files/html/2019-05-15-letter-from-cipollone-to-nadler-re-document-requests.html">HTML</a></td>
             <td><a href="/archive/files/pdf/2019-05-15-letter-from-cipollone-to-nadler-re-document-requests.pdf">PDF</a>; <a href="/archive/files/pdf/2019-05-15-letter-from-cipollone-to-nadler-re-mcgahn.pdf">PDF2</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-05-16</td>
             <td>Jerrold Nadler</td>
@@ -3413,7 +3426,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-16-letter-from-nadler-to-cipollone.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="cabsec">
             <td></td>
             <td nowrap>2019-05-17</td>
             <td>Steven T. Mnuchin</td>
@@ -3421,7 +3434,7 @@
             <td><a href="/archive/files/html/2019-05-17-letter-from-mnuchin-to-neal-re-trump-tax-returns.html">HTML</a></td>
             <td><a href="/archive/files/pdf/2019-05-17-letter-from-mnuchin-to-neal-re-trump-tax-returns.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-05-17</td>
             <td>Jerrold Nadler</td>
@@ -3429,7 +3442,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-17-letter-from-nadler-to-mcgahn.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whitehouse">
             <td></td>
             <td nowrap>2019-05-20</td>
             <td>William A. Burck</td>
@@ -3437,7 +3450,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-20-letter-from-burck-to-nadler.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="doj">
             <td></td>
             <td nowrap>2019-05-20</td>
             <td>Steven A. Engel</td>
@@ -3445,7 +3458,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-20-olc-memorandum-for-counsel-to-president-re-testimonial-immunity-former-counsel-to-president.pdf">PDF</a>; <a href="/archive/files/pdf/2019-05-20-memo-from-engel-to-cipollone-re-testimonial-immunity-before-congress-of-the-former-counsel-to-the-president.pdf">PDF2</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2019-05-20</td>
             <td>Pat A. Cipollone</td>
@@ -3453,7 +3466,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-20-letter-from-cipollone-to-nadler-re-mcgahn-subpoena.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-05-20</td>
             <td>Jerrold Nadler</td>
@@ -3461,7 +3474,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-20-letter-from-nadler-to-mcgahn.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>2019-05-21</td>
             <td>Jerrold Nadler</td>
@@ -3469,7 +3482,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-21-donaldson-subpoena-house-judiciary.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>2019-05-21</td>
             <td>Jerrold Nadler</td>
@@ -3477,7 +3490,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-21-hicks-subpoena-house-judiciary.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>2019-05-21</td>
             <td>House Committee on the Judiciary</td>
@@ -3485,7 +3498,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-21-transcript-of-house-judiciary-hearing.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="doj">
             <td></td>
             <td nowrap>2019-05-23</td>
             <td>Steven A. Engel</td>
@@ -3493,7 +3506,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-23-agency-counsel-43-op-olc.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-05-24</td>
             <td>Jerrold Nadler</td>
@@ -3501,7 +3514,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-24-letter-from-nadler-to-barr-cipollone-re-special-counsel-documents.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-05-31</td>
             <td>Jerrold Nadler</td>
@@ -3509,7 +3522,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-05-31-letter-from-nadler-to-mcgahn-and-cipollone.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-06-03</td>
             <td>Elijah E. Cummings</td>
@@ -3517,7 +3530,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-06-03-eec-to-barr-doj-re-census.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-06-03</td>
             <td>Elijah E. Cummings</td>
@@ -3525,7 +3538,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-06-03-eec-to-ross-doc-re-census.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2019-06-04</td>
             <td>Pat A. Cipollone</td>
@@ -3533,7 +3546,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-06-04-letter-from-cipollone-to-nadler.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-06-13</td>
             <td>Elijah E. Cummings</td>
@@ -3541,15 +3554,15 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-06-13-eec-gec-to-conway-wh-re-witness-invitation.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="doj">
             <td></td>
             <td nowrap>2019-06-13</td>
             <td>Steven A. Engel</td>
-            <td>Congressional Committee's Request for the President's Tax Returns Under 26 U.S.C.  6103(f), 43 Op. O.L.C. ___ (Jun. 13, 2019).</td>
+            <td>Congressional Committee's Request for the President's Tax Returns Under 26 U.S.C. 6103(f), 43 Op. O.L.C. ___ (Jun. 13, 2019).</td>
             <td></td>
             <td><a href="/archive/files/pdf/2019-06-13-potus-tax-returns-43-op-olc.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2019-06-18</td>
             <td>Pat A. Cipollone</td>
@@ -3557,7 +3570,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-06-18-letter-from-cipollone-to-nadler-re-hicks-subpoena.pdf">PDF</a>; <a href="/archive/files/pdf/2019-06-18-letter-from-cipollone-to-nadler.pdf">PDF2</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>2019-06-19</td>
             <td>House Committee on the Judiciary</td>
@@ -3565,7 +3578,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-06-19-house-judiciary-interview-of-hope-hicks-re-russia-mueller.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2019-06-24</td>
             <td>Pat A. Cipollone</td>
@@ -3573,7 +3586,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-06-24-cipollone-to-cummings-re-conway-testimony.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congRes">
             <td></td>
             <td nowrap>2019-06-24</td>
             <td>Elijah E. Cummings</td>
@@ -3581,7 +3594,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-06-24-h-r-rep-no-116-125-re-barr-ross-contempt-2020-census.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congAdministrative">
             <td></td>
             <td nowrap>2019-07-11</td>
             <td>Jerrold Nadler</td>
@@ -3597,7 +3610,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-12-sr-counselor-immunity-from-congressional-testimony-43-op-olc.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>2019-07-12</td>
             <td>House Committee on the Judiciary</td>
@@ -3605,7 +3618,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-12-house-judiciary-hearing-re-constitutional-processes-for-addressing-presidential-misconduct.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="whco">
             <td></td>
             <td nowrap>2019-07-15</td>
             <td>Pat A. Cipollone</td>
@@ -3613,7 +3626,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-15-letter-from-cipollone-to-cummings-re-conway-testimony.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congRes">
             <td></td>
             <td nowrap>2019-07-17</td>
             <td>House Committee on Oversight and Government Reform</td>
@@ -3621,7 +3634,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-17-barr-ross-contempt-report-165-cong-H6003.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congRes">
             <td></td>
             <td nowrap>2019-07-17</td>
             <td>Elijah E. Cummings</td>
@@ -3629,7 +3642,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-17-h-res-497-116-cong-re-barr-ross-contempt.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="floorRemarks">
             <td></td>
             <td nowrap>2019-07-17</td>
             <td>Elijah E. Cummings</td>
@@ -3637,7 +3650,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-17-barr-ross-contempt-house-floor-165-cong-rec-H5941.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="floorVotes">
             <td></td>
             <td nowrap>2019-07-17</td>
             <td>United States House of Representatives</td>
@@ -3645,7 +3658,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-17-barr-ross-contempt-house-floor-vote-165-cong-rec-H5977.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-07-18</td>
             <td>Jerrold Nadler</td>
@@ -3653,7 +3666,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-18-letter-from-nadler-to-hicks-re-prior-testimony.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-07-19</td>
             <td>Elijah E. Cummings</td>
@@ -3669,7 +3682,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-22-letter-from-weinsheimer-to-mueller-re-testimony.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congCorrespondence">
             <td></td>
             <td nowrap>2019-07-23</td>
             <td>Elijah E. Cummings</td>
@@ -3677,7 +3690,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-23-letter-from-cummings-to-barr-and-ross-re-criminal-referral.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>2019-07-24</td>
             <td>House Committee on the Judiciary</td>
@@ -3685,7 +3698,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-24-mueller-testimony-h-comm-on-judiciary.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="hearings">
             <td></td>
             <td nowrap>2019-07-24</td>
             <td>House Permanent Select Committee on Intelligence</td>
@@ -3693,7 +3706,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-24-mueller-testimony-hpsci.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>2019-07-26</td>
             <td>Douglas N. Letter</td>
@@ -3701,7 +3714,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-26-house-judiciary-application-for-grand-jury-material-re-mueller-investigation.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>2019-07-26</td>
             <td>Douglas N. Letter</td>
@@ -3709,7 +3722,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-07-26-house-judiciary-application-for-grand-jury-material-re-mueller-investigation-stamped.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="courtFilings">
             <td></td>
             <td nowrap>2019-08-07</td>
             <td>Douglas N. Letter; Todd B. Tatelman; Megan Barbero; Josephine Morse; Sarah E. Clouse</td>
@@ -3717,7 +3730,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-08-07-complaint-h-comm-on-the-judiciary-v-mcgahn.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td nowrap>2019-08-14</td>
             <td>Jerrold Nadler</td>
@@ -3725,7 +3738,7 @@
             <td></td>
             <td><a href="/archive/files/pdf/2019-08-14-dearborn-subpoena-house-judiciary.pdf">PDF</a></td>
           </tr>
-          <tr>
+          <tr class="congProcess">
             <td></td>
             <td>2019-08-14</td>
             <td>Jerrold Nadler</td>
@@ -3746,6 +3759,17 @@
           $(".president").hide();
         }
       })
+
+      $(".whco").show();
+      $("#whco").change(function() {
+        if ($(this).prop("checked") === true) {
+          $(".whco").show();
+        }
+        if ($(this).prop("checked") === false) {
+          $(".whco").hide();
+        }
+      })
+
 
       $(".whitehouse").show();
       $("#whitehouse").change(function() {
@@ -3787,6 +3811,7 @@
         }
       })
 
+
       $(".commRep").show();
       $("#commRep").change(function() {
         if ($(this).prop("checked") === true) {
@@ -3794,6 +3819,16 @@
         }
         if ($(this).prop("checked") === false) {
           $(".commRep").hide();
+        }
+      })
+
+      $(".congRes").show();
+      $("#congRes").change(function() {
+        if ($(this).prop("checked") === true) {
+          $(".congRes").show();
+        }
+        if ($(this).prop("checked") === false) {
+          $(".congRes").hide();
         }
       })
 
@@ -3817,6 +3852,66 @@
         }
       })
 
+      $(".congCorrespondence").show();
+      $("#congCorrespondence").change(function() {
+        if ($(this).prop("checked") === true) {
+          $(".congCorrespondence").show();
+        }
+        if ($(this).prop("checked") === false) {
+          $(".congCorrespondence").hide();
+        }
+      })
+
+      $(".congCounsel").show();
+      $("#congCounsel").change(function() {
+        if ($(this).prop("checked") === true) {
+          $(".congCounsel").show();
+        }
+        if ($(this).prop("checked") === false) {
+          $(".congCounsel").hide();
+        }
+      })
+
+      $(".congProcess").show();
+      $("#congProcess").change(function() {
+        if ($(this).prop("checked") === true) {
+          $(".congProcess").show();
+        }
+        if ($(this).prop("checked") === false) {
+          $(".congProcess").hide();
+        }
+      })
+
+      $(".floorRemarks").show();
+      $("#floorRemarks").change(function() {
+        if ($(this).prop("checked") === true) {
+          $(".floorRemarks").show();
+        }
+        if ($(this).prop("checked") === false) {
+          $(".floorRemarks").hide();
+        }
+      })
+
+      $(".floorVotes").show();
+      $("#floorVotes").change(function() {
+        if ($(this).prop("checked") === true) {
+          $(".floorVotes").show();
+        }
+        if ($(this).prop("checked") === false) {
+          $(".floorVotes").hide();
+        }
+      })
+
+      $(".congAdministrative").show();
+      $("#congAdministrative").change(function() {
+        if ($(this).prop("checked") === true) {
+          $(".congAdministrative").show();
+        }
+        if ($(this).prop("checked") === false) {
+          $(".congAdministrative").hide();
+        }
+      })
+
       $(".courtOpinions").show();
       $("#courtOpinions").change(function() {
         if ($(this).prop("checked") === true) {
@@ -3834,6 +3929,16 @@
         }
         if ($(this).prop("checked") === false) {
           $(".courtFilings").hide();
+        }
+      })
+
+      $(".gjSubpoenas").show();
+      $("#gjSubpoenas").change(function() {
+        if ($(this).prop("checked") === true) {
+          $(".gjSubpoenas").show();
+        }
+        if ($(this).prop("checked") === false) {
+          $(".gjSubpoenas").hide();
         }
       })
 
