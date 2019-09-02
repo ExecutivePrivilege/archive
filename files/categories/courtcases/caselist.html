@@ -1,30 +1,98 @@
 <html>
   <head>
     <style>
-      div {
-        padding-top: 0px;
-        padding-right: 20px;
-        padding-bottom: 0px;
-        padding-left: 20px;
-        width: 90%
-      }
+    table, th, td, tr {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 2px;
+    }
+    div {
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 5px;
+      width: 84.5%
+    }
+    table {
+      counter-reset: rowNumber -1;
+    }
+    table tr {
+      counter-increment: rowNumber;
+    }
+    table tr td:first-child::before {
+      content: counter(rowNumber);
+      min-width: 1em;
+      margin-right: 0.5em;
+    }
     </style>
   </head>
-  <ul style="list-style-type:none">
-    <li>United States v. Morgan, <a href="/archive/files/categories/courtcases/united-states-v-morgan-331-us-409/docket-sheet.html">331 U.S. 409</a> (1941).</li>
-    <li><b>President Donald J. Trump Finances</b></li>
-      <ul style="list-style-type:none">
-        <li>Trump v. H. Comm. on Oversight and Reform, No. 1:19-cv-1136 (D.D.C. Apr. 22, 2019).</li>
-        <li>Trump v. Mazars USA, LLP, No. 19-5142 (D.C. Cir. May 21, 2019).</li>
-        <li>Trump v. Deutsche Bank AG, No. 19-1540 (2d Cir. May 24, 2019).</li>
-        <li>H. Comm. on Ways and Means v. U.S. Dep't of Treasury, 1:19-cv-01974 (D.D.C. Jul. 2, 2019).</li>
-      </ul>
-    <br>
-    <li><b>Russia Investigation</b></li>
-      <ul style="list-style-type:none">
-        <li>Application by the Reporter's Committee for Freedom of the Press for an Order Authorizing the Release of Grand Jury Material Cited, Quoted, or Referenced in the Report of Special Counsel Robert S. Mueller III, <a href="/archive/files/categories/courtcases/reporters-committee-application-for-grand-jury-material/docket-sheet.html">No. 1:19-mc-00045-BAH</a> (filed D.D.C. April 1, 2019).</li>
-        <li>Application of the H. Comm. on the Judiciary for an Order Authorizing the Release of Certain Grand Jury Materials, No. 1:19-gj-0048 (D.D.C. Jul. 26, 2019).</li>
-        <li>House Committee on the Judiciary v. Donald F. McGahn II, <a href="/archive/files/categories/courtcases/house-judiciary-v-mcgahn/docket-sheet.html">No. 1:19-cv-02379</a> (D.D.C. August 7, 2019).</li>
-      </ul>
-  </ul>
+  <body>
+    <table>
+      <tr>
+        <th>No.</th>
+        <th>Date Filed</th>
+        <th>Case</th>
+        <th>Topic</th>
+        <th>Docket</th>
+      </tr>
+      <tr>
+        <td nowrap></td>
+        <td nowrap>1941-05-26</td>
+        <td>United States v. Morgan, 313 U.S. 409 (1941) (No. 640).</td>
+        <td>Testimony of High Government Official</td>
+        <td><a href="/archive/files/categories/courtcases/united-states-v-morgan-331-us-409/docket-sheet.html">Docket</a></td>
+      </tr>
+      <tr>
+        <td nowrap></td>
+        <td nowrap>2019-04-01</td>
+        <td>Application by the Reporter's Committee for Freedom of the Press for an Order Authorizing the Release of Grand Jury Material Cited, Quoted, or Referenced in the Report of Special Counsel Robert S. Mueller III, No. 1:19-mc-00045-BAH (filed D.D.C. April 1, 2019).</td>
+        <td>Release of Grand Jury Materials Cited in the Mueller Report</td>
+        <td><a href="/archive/files/categories/courtcases/reporters-committee-application-for-grand-jury-material/docket-sheet.html">Docket</a></td>
+      </tr>
+      <tr>
+        <td nowrap></td>
+        <td nowrap>2019-04-22</td>
+        <td>Trump v. H. Comm. on Oversight and Reform, No. 1:19-cv-1136 (D.D.C. Apr. 22, 2019).</td>
+        <td>President Trump's Financial Records</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td nowrap></td>
+        <td nowrap>2019-05-21</td>
+        <td>Trump v. Mazars USA, LLP, No. 19-5142 (D.C. Cir. May 21, 2019).</td>
+        <td>President Trump's Financial Records</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td nowrap></td>
+        <td nowrap>2019-05-24</td>
+        <td>Trump v. Deutsche Bank AG, No. 19-1540 (2d Cir. May 24, 2019).</td>
+        <td>President Trump's Financial Records</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td nowrap></td>
+        <td nowrap>2019-07-02</td>
+        <td>H. Comm. on Ways and Means v. U.S. Dep't of Treasury, 1:19-cv-01974 (D.D.C. Jul. 2, 2019).</td>
+        <td>President Trump's Tax Returns</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td nowrap></td>
+        <td nowrap>2019-07-26</td>
+        <td>Application of the H. Comm. on the Judiciary for an Order Authorizing the Release of Certain Grand Jury Materials, No. 1:19-gj-0048 (D.D.C. Jul. 26, 2019).</td>
+        <td>Release of Grand Jury Materials Related to the Mueller Report</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td nowrap></td>
+        <td nowrap>2019-08-07</td>
+        <td>House Committee on the Judiciary v. Donald F. McGahn II, No. 1:19-cv-02379 (D.D.C. August 7, 2019).</td>
+        <td>Compelled Congressional Testimony of the Former White House Counsel</td>
+        <td><a href="/archive/files/categories/courtcases/house-judiciary-v-mcgahn/docket-sheet.html">Docket</a></td>
+      </tr>
+    </table>
+  </body>
 </html>
